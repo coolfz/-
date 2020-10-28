@@ -1,0 +1,55 @@
+/*更改页面颜色*/
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #b1c3d4;
+}
+
+
+/*定位页面主标题并添加样式*/
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    padding: 20px 0;
+    color: #00539F;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+a {
+    font-size: 30px;
+}
+
+p,
+li {
+    font-size: 16px;
+    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+    color: red;
+}
+
+
+/*文档体格式设置*/
+
+body {
+    /*width: 200px;  这个是控制body的宽度的*/
+    margin: 0;
+    padding: 0;
+    /*即外边距，围绕元素外部的空间*/
+    background-color: #c0af98;
+    /* padding: 0 20px 20px 20px;  即内边距，围绕着内容（比如段落）的空间。*/
+    /*  border: 5px solid black; */
+}
+
+
+/*图片居中*/
+
+img {
+    display: block;
+    margin: 0 auto;
+}
